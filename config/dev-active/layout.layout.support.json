@@ -68,10 +68,16 @@
                 "module": "system",
                 "delta": "main-menu",
                 "settings": {
-                    "title_display": "default",
+                    "title_display": "none",
                     "title": "",
                     "style": "default",
-                    "block_settings": [],
+                    "block_settings": {
+                        "menu_name": "main-menu",
+                        "style": "dropdown",
+                        "level": "1",
+                        "depth": "3",
+                        "toggle": 1
+                    },
                     "contexts": []
                 },
                 "uuid": "8c924952-e403-4fa8-a203-3e915942230c",
@@ -189,18 +195,23 @@
                 "settings": {
                     "title_display": "default",
                     "title": "Online Resources",
-                    "style": "default",
+                    "style": "dynamic",
                     "block_settings": [],
                     "contexts": [],
-                    "content": "<p>The Backdrop CMS community uses a handful of tools for communication.</p>\n\n<ul>\n  <li><a href=\"https://gitter.im/backdrop/backdrop-issues\"><i class=\"fa fa-comments-o\"></i> Live Chat: GitterIM</a></li>\n  <li><a href=\"http://github.com/backdrop/backdrop-issues/issues\"><i class=\"fa fa-github\"></i> Issue Queue: Github</a></li>\n  <li><a href=\"http://api.backdropcms.org/\"><i class=\"fa fa-puzzle-piece\"></i> Developer Documentation (API)</a></li>\n  <li><a href=\"https://plus.google.com/+BackdropcmsOrg\"><i class=\"fa fa-google-plus\"></i> Weekly Meetings: Google hangouts</a></li>\n  <li><a href=\"https://www.youtube.com/user/backdropcms\"><i class=\"fa fa-youtube\"></i> Video archives: YouTube</a></li>\n  <li><a href=\"https://www.linkedin.com/groups/6930143\"><i class=\"fa fa-linkedin\"></i> LinkedIn group</a></li>\n  <li><a href=\"http://www.facebook.com/backdropcms\"><i class=\"fa fa-facebook\"></i> Facebook group</a></li>\n  <li><a href=\"http://twitter.com/backdropcms\"><i class=\"fa fa-twitter\"></i> Twitter (use #BackdropCMS)</a></li>\n</ul>",
+                    "content": "<p>The Backdrop CMS community uses a handful of tools for communication.</p>\n\n<ul class=\"calls-to-action\">\n  <li><a href=\"https://gitter.im/backdrop/backdrop-issues\"><i class=\"fa fa-comments-o\"></i> Live Chat: GitterIM</a></li>\n  <li><a href=\"http://github.com/backdrop/backdrop-issues/issues\"><i class=\"fa fa-github\"></i> Issue Queue: Github</a></li>\n  <li><a href=\"http://api.backdropcms.org/\"><i class=\"fa fa-puzzle-piece\"></i> Developer Documentation (API)</a></li>\n  <li><a href=\"https://plus.google.com/+BackdropcmsOrg\"><i class=\"fa fa-google-plus\"></i> Weekly Meetings: Google hangouts</a></li>\n  <li><a href=\"https://www.youtube.com/user/backdropcms\"><i class=\"fa fa-youtube\"></i> Video archives: YouTube</a></li>\n  <li><a href=\"https://www.linkedin.com/groups/6930143\"><i class=\"fa fa-linkedin\"></i> LinkedIn group</a></li>\n  <li><a href=\"http://www.facebook.com/backdropcms\"><i class=\"fa fa-facebook\"></i> Facebook group</a></li>\n  <li><a href=\"http://twitter.com/backdropcms\"><i class=\"fa fa-twitter\"></i> Twitter (use #BackdropCMS)</a></li>\n</ul>\n",
                     "format": "full_html"
                 },
                 "uuid": "457d1bb1-9bd9-4b26-aa07-7e1dae51bad6",
                 "style": {
-                    "plugin": "default",
+                    "plugin": "dynamic",
                     "data": {
                         "settings": {
-                            "classes": ""
+                            "classes": "",
+                            "wrapper_tag": "div",
+                            "title_tag": "h2",
+                            "title_classes": "block-title",
+                            "content_tag": "div",
+                            "content_classes": "font-size-medium"
                         }
                     }
                 }

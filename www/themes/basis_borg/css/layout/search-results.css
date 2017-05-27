@@ -1,0 +1,14 @@
+.search-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide stupid "Enter keywords" label */
+.form-type-search label {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}

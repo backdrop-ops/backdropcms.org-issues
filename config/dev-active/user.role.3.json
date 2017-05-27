@@ -197,6 +197,9 @@
         "delete any project_dummy content",
         "administer bakery",
         "bypass bakery",
-        "assign roles"
+        "assign roles",
+        "access devel information",
+        "execute php code",
+        "switch users"
     ]
 }

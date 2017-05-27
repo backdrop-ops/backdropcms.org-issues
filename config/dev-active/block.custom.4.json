@@ -1,10 +1,10 @@
 {
     "_config_name": "block.custom.4",
     "delta": "4",
-    "info": "Tagline and Download",
+    "info": "Tagline",
     "title": "",
     "body": {
-        "value": "<h1>Backdrop CMS</h1>\n\n<h2>The comprehensive CMS for small to medium sized businesses and non-profits.</h2>\n\n<a href=\"https://github.com/backdrop/backdrop/releases/download/1.6.3/backdrop.zip\" class=\"button download\">Download Backdrop</a>\n\n<a class=\"button demo\" href=\"http://www.getpantheon.com/backdrop\" title=\"Take Backdrop CMS for a spin, see if you like it!\">Spin up on Pantheon</a>\n\n<p class=\"subtext\"><span>v1.6.3</span> / <a href=\"/requirements\">requirements</a> / <a href=\"/installation\">installing</a> / <a href=\"/upgrade\">upgrading</a></p>\n\n",
+        "value": "<h2><span class=\"slogan-line1\">A free and open&nbsp;source&nbsp;CMS</span> for&nbsp;small&nbsp;to&nbsp;medium sized businesses and <span class=\"no-break\">non-profits</span></h2>",
         "format": "full_html"
     },
     "description": "A reusable custom block."

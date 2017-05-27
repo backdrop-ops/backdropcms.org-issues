@@ -25,9 +25,10 @@
     "display": {
         "default": {
             "label": "hidden",
-            "type": "hidden",
-            "weight": "10",
-            "settings": []
+            "type": "text_default",
+            "weight": "2",
+            "settings": [],
+            "module": "text"
         }
     }
 }

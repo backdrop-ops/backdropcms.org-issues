@@ -67,10 +67,16 @@
                 "module": "system",
                 "delta": "main-menu",
                 "settings": {
-                    "title_display": "default",
+                    "title_display": "none",
                     "title": "",
                     "style": "default",
-                    "block_settings": [],
+                    "block_settings": {
+                        "menu_name": "main-menu",
+                        "style": "dropdown",
+                        "level": "1",
+                        "depth": "3",
+                        "toggle": 1
+                    },
                     "contexts": []
                 },
                 "uuid": "703d4639-db2d-4934-8300-eae9f40fb582",

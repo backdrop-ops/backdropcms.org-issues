@@ -1,0 +1,23 @@
+/*******************************************************************************
+ * Release Cycle (/releases)
+ ******************************************************************************/
+.version-number {
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+}
+.version-number span {
+  display: inline-block;
+  width: 28%;
+}
+.version-explaination {
+  margin: 0 auto;
+  text-align: center;
+}
+.version-explaination span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  width: 29%;
+}

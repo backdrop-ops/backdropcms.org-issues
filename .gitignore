@@ -8,3 +8,8 @@
 /*.tgz
 /*.tar.gz
 
+# Docker nonsense
+docker-compose.yml
+docker
+volumes
+

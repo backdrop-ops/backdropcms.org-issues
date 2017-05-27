@@ -1,0 +1,17 @@
+.calls-to-action {
+  margin-top: -0.25em;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.calls-to-action li {
+  margin: 0;
+  padding: 0;
+}
+
+.calls-to-action a {
+  display: inline-block;
+  padding: 0.25em 0;
+  text-decoration: none;
+}

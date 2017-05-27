@@ -61,14 +61,14 @@
                 "module": "system",
                 "delta": "main-menu",
                 "settings": {
-                    "title_display": "default",
+                    "title_display": "none",
                     "title": "",
                     "style": "default",
                     "block_settings": {
                         "menu_name": "main-menu",
-                        "style": "top_only",
+                        "style": "dropdown",
                         "level": "1",
-                        "depth": "1",
+                        "depth": "3",
                         "toggle": 1
                     },
                     "contexts": []

@@ -1,0 +1,10 @@
+{
+    "_config_name": "block.custom.highlighted_book",
+    "delta": "highlighted_book",
+    "info": "Highlighted Book",
+    "title": "",
+    "body": {
+        "value": "<a href=\"https://www.amazon.com/Beginning-Backdrop-CMS-Todd-Tomlinson/dp/1484219694\" class=\"learn-backdrop-book-cover\"><img src=\"https://backdropcms.org/files/beginningbackdropcms_1.jpg\" /></a>\n<h2>Learn How to use Backdrop</h2>\n<h3><a href=\"https://www.amazon.com/Beginning-Backdrop-CMS-Todd-Tomlinson/dp/1484219694\">Beginning Backdrop CMS</a></h3> <div>by Todd Tomlinson</div>\n<p>Author of “Pro Drupal 7 Development”, is available now from <a href=\"https://www.amazon.com/Beginning-Backdrop-CMS-Todd-Tomlinson/dp/1484219694\">Amazon</a>.</p>",
+        "format": "full_html"
+    }
+}

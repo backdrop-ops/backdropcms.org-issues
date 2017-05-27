@@ -11,8 +11,8 @@
     "disabled": false,
     "settings": {
         "title": "",
-        "title_display": "default",
-        "title_block": null
+        "title_display": "none",
+        "title_block": "dcc08931-fe27-45e8-8a09-9ea6d72e5fa2"
     },
     "positions": {
         "header": [
@@ -62,10 +62,16 @@
                 "module": "system",
                 "delta": "main-menu",
                 "settings": {
-                    "title_display": "default",
+                    "title_display": "custom",
                     "title": "",
                     "style": "default",
-                    "block_settings": [],
+                    "block_settings": {
+                        "menu_name": "main-menu",
+                        "style": "dropdown",
+                        "level": "1",
+                        "depth": "3",
+                        "toggle": 1
+                    },
                     "contexts": []
                 },
                 "uuid": "1b3a6d21-38e2-4794-9300-b8f01bbe34fb",
